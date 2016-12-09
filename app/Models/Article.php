@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Article extends Model
 {
     /**
-     * A article has and belongs to many roles.
+     * A article has and belongs to many tags.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */

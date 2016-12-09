@@ -1,6 +1,6 @@
 
 
-# amp
+# apricot
 
 // 数据库迁移
 // --database   指定数据库连接（下同）
@@ -237,3 +237,12 @@ SELECT article_id from article_tags
                  where tag_id in (select tag_id from article_tags where article_id=1)
                    and article_id<>1
 ```
+## Settings
+
+```
+php artisan make:model Models\Setting
+php artisan make:migration create_setting_table
+php artisan admin:make SettingController --model=App\Models\Setting
+```
+
+

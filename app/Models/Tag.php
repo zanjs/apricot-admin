@@ -8,7 +8,7 @@ class Tag extends Model
 {
     
     /**
-     * A tag has and belongs to many roles.
+     * A tag has and belongs to many articles.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */

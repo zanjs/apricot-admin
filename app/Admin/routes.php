@@ -17,5 +17,6 @@ Route::group([
     $router->resource('categorys', CategoryController::class);
     $router->resource('tags', TagController::class);
     $router->resource('templates', TemplateController::class);
+    $router->resource('settings', SettingController::class);
 });
 

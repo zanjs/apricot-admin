@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                   {{ admin::setting('title')}}
                 </div>
 
                 <div class="links">
