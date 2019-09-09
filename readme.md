@@ -2,6 +2,8 @@
 
 # apricot
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/apricot-admin.svg)](https://greenkeeper.io/)
+
 // 数据库迁移
 // --database   指定数据库连接（下同）
 // --force      当处于生产环境时强制执行，不询问（下同）
